@@ -21,7 +21,9 @@ android {
     //    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         testInstrumentationRunner "com.androiddevs.shoppinglisttestingyt.HiltTestRunner"
     }
-
+    testOptions {
+        animationsDisabled = true
+    }
     buildTypes {
         release {
             minifyEnabled false
